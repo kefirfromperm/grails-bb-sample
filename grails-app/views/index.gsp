@@ -18,5 +18,7 @@
 <p><bb:xml text="${params?.text}"/></p>
 <h2>Safe HTML</h2>
 <p><bb:html text="${params?.text}"/></p>
+<h2>Custom user configuration Textile</h2>
+<p><bb:process conf="textile" text="${params?.text}"/></p>
 </body>
 </html>
